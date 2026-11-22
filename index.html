@@ -390,23 +390,23 @@
 
             <div class="col-lg-7">
 
-                <form action="mailto:akankshamali233@gmail.com"
-                      method="post" enctype="text/plain">
+                <form id="contact-form">
+                      
 
                     <input type="text"
                            class="form-control mb-3"
-                           name="Name"
+                           name="name"
                            placeholder="Your Name"
                            required>
 
                     <input type="email"
                            class="form-control mb-3"
-                           name="Email"
+                           name="email"
                            placeholder="Your Email"
                            required>
 
                     <textarea class="form-control mb-3"
-                              name="Message"
+                              name="message"
                               rows="5"
                               placeholder="Your Message"
                               required></textarea>
@@ -447,7 +447,8 @@
 <!-- Footer End -->
 
 
-
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script src="script.js"></script>
 </body>
 
 
